@@ -1,0 +1,74 @@
+body {
+  padding: 0;
+  margin: 0 auto;
+  overflow-x:hidden;
+  height: 300vw;
+}
+
+.attenuation {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.startAnimation {
+  animation-duration: 1550ms;
+  animation-name: load;
+}
+.absolute {
+  position: absolute;
+}
+
+@keyframes load {
+  0% {opacity: 1;}
+  5% {opacity: 0.95;}
+  10% {opacity: 0.9;}
+  15% {opacity: 0.85;}
+  20% {opacity: 0.8;}
+  25% {opacity: 0.75;}
+  30% {opacity: 0.7;}
+  35% {opacity: 0.65;}
+  40% {opacity: 0.6;}
+  45% {opacity: 0.55;}
+  50% {opacity: 0.5;}
+  55% {opacity: 0.4;}
+  60% {opacity: 0.35;}
+  65% {opacity: 0.3;}
+  70% {opacity: 0.25;}
+  75% {opacity: 0.2;}
+  80% {opacity: 0.15;}
+  85% {opacity: 0.1;}
+  90% {opacity: 0.05;}
+  95% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+@-webkit-keyframes load {
+  0% {opacity: 1;}
+  5% {opacity: 0.95;}
+  10% {opacity: 0.9;}
+  15% {opacity: 0.85;}
+  20% {opacity: 0.8;}
+  25% {opacity: 0.75;}
+  30% {opacity: 0.7;}
+  35% {opacity: 0.65;}
+  40% {opacity: 0.6;}
+  45% {opacity: 0.55;}
+  50% {opacity: 0.5;}
+  55% {opacity: 0.4;}
+  60% {opacity: 0.35;}
+  65% {opacity: 0.3;}
+  70% {opacity: 0.25;}
+  75% {opacity: 0.2;}
+  80% {opacity: 0.15;}
+  85% {opacity: 0.1;}
+  90% {opacity: 0.05;}
+  95% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+.zIndex {
+  z-index: -1;
+}
