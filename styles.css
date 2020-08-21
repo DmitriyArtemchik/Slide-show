@@ -5,6 +5,11 @@ body {
   height: 300vw;
 }
 
+canvas {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+}
 .attenuation {
   width: 100vw;
   height: 100vh;
